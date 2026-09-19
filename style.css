@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f8f5ef;
+    color:#333;
+}
+
+header{
+    background:#b22222;
+    color:white;
+    text-align:center;
+    padding:25px;
+    font-size:22px;
+}
+
+.slider{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:40px;
+}
+
+.card{
+    width:600px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+    padding:30px;
+    text-align:center;
+}
+
+.card img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid #b22222;
+}
+
+.card h2{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+audio{
+    width:100%;
+    margin-bottom:25px;
+}
+
+#instrumentInfo{
+    text-align:justify;
+    font-size:18px;
+    line-height:1.7;
+}
+
+.arrow{
+    width:70px;
+    height:70px;
+    border:none;
+    border-radius:50%;
+    background:#b22222;
+    color:white;
+    font-size:35px;
+    cursor:pointer;
+    margin:20px;
+}
+
+.arrow:hover{
+    background:#8b0000;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+    background:#b22222;
+    color:white;
+}
+
+@media(max-width:800px){
+
+.card{
+    width:90%;
+}
+
+.slider{
+    flex-direction:column;
+}
+
+.arrow{
+    margin:15px;
+}
+
+}
